@@ -25,7 +25,8 @@ body, html{
     font-weight: bold;
 }
 
-.logo-links {
+.logo-links,
+.section-1 .text {
     display: flex;
     gap: 20px;
     font-size: 18px;
@@ -35,14 +36,49 @@ li {
     list-style: none;
 }
 
-a{
+a, 
+.section-1 .text{
     text-decoration: none;
-    color: white;
+    color: #e5e7eb;
 }
 
 img{
-    background-color: black;
+    background-color: grey;
     height: 100px;
     width: 100px
 }
 
+.section-1 {
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+    width: 70%;
+    gap: 10px;
+}
+
+.section-1 img {
+    flex: 1 0 0;
+    height: 200px;
+}
+
+.section-1-container {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    flex: 1 1 0;
+    gap: 10px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: white;
+    padding: 0.5em;
+    padding-inline: 2em;
+    border: 0px solid #3882F6;
+    border-radius: 5px;
+}
