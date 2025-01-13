@@ -16,7 +16,7 @@ body, html{
     display: flex;
     width: 70%;
     align-items: center;
-    flex:  0 50px;  
+    flex: 0 1 50px;  
     justify-content: space-between;
 }
 
@@ -58,7 +58,7 @@ img{
 }
 
 .section-1 img {
-    flex: 1 0 0;
+    flex: 1 1 0;
     height: 200px;
 }
 
@@ -108,3 +108,34 @@ img{
     flex-wrap: wrap;
     text-align: center;
 }
+
+.section-3{
+    flex: 1 1 auto;
+    background-color: #e5e7eb;
+    align-self: stretch;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+}
+
+.section-3-container{
+    width: 70%;
+    align-self: center;
+    display: flex;
+    flex-flow: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    color: black;
+}
+
+.thor{
+    align-self: flex-end;
+    color: black;
+    font-size: 28px;
+}
+
