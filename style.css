@@ -46,8 +46,13 @@ body /* {
     font-size: 18px;
 }
 
+
 li {
     list-style: none;
+}
+
+a:hover {
+    color: #3882F6;
 }
 
 a, 
@@ -81,7 +86,6 @@ img{
 .section-1-container {
     display: flex;
     flex-flow: row wrap;
-    align-items: ;
     flex: 1 1 0;
     gap: 20px;
 }
@@ -109,10 +113,16 @@ img{
     color: white;
     padding: 0.7em;
     padding-inline: 2em;
-    border: 0px solid #3882F6;
-    border-radius: 5px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
     font-weight: 900;
     font-size: 1.5em;
+}
+
+.sign-up:hover {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    border: 2px solid #e5e7eb;
 }
 
 .section-2 {
@@ -215,9 +225,12 @@ img{
     border-radius: 5px;
 }
 
-.section-4 .text {
-
+.button:hover {
+    background-color: white;
+    color: #3882F6;
+    border: 2px solid white;
 }
+
 
 .action {
     font-size: 20px;
