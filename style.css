@@ -17,7 +17,7 @@ body {
 }
 
 body {
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 body /* {
@@ -192,11 +192,16 @@ img{
 .section-4-container {
     background-color: #3882F6;
     padding: 4em;
+    padding-inline: 8em;
     display: flex;
-    flex-flow: wrap;
-    font
-
+    flex-wrap: wrap;
+    flex: 0 0 40%;
+    border: 1px solid #3882F6;
+    border-radius: 10px;
+    justify-content: space-between;
 }
+
+
 
 .button {
     padding: 0.5em;
@@ -205,7 +210,17 @@ img{
     border: 2px solid white;
     color: white;
     font-weight: 900;
+    font-size: 15px;
     border-radius: 5px;
+}
+
+.section-4 .text {
+
+}
+
+.action {
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .footer {
